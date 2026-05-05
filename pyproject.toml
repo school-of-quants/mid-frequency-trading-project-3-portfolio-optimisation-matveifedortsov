@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "equity_project"
+version = "0.1.0"
+description = "Project 3 example"
+authors = ["Евсин Игорь Русланович <igor.evsin@squants.education>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+yfinance = "^0.2.66"
+fastparquet = "^2024.11.0"
+joblib = "^1.5.2"
+vectorbt = "^0.28.5"
+catboost = "^1.2.10"
+pyyaml = "^6.0.3"
+pyarrow = "^23.0.1"
+kaleido = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

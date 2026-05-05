@@ -1,7 +1,0 @@
-train_start_date: "2017-01-01"
-train_end_date: "2021-12-31"
-backtest_start_date: "2022-01-01"
-backtest_end_date: "2025-12-31"
-
-init_cash: 20000000
-fees: 0.001
